@@ -4,7 +4,6 @@
 
 ## Team Members
 * **Member 1:** Imaad Fazal (23I-0656)
-* **Member 2:** Fatik bin Imran (23I-0655)
 
 ## How to Run
 1.  **Compile:**
