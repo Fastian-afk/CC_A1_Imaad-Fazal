@@ -1,0 +1,8 @@
+start
+    declare Msg = "Hello, World!";
+    declare Escape = "Line1\nLine2\tTabbed";
+    declare Char1 = 'A';
+    declare Char2 = '\n';
+    
+    output Msg;
+finish

@@ -1,0 +1,11 @@
+start
+    ## Single line comment
+    declare X = 10; ## Inline comment
+    
+    #* Multi-line comment 
+       should be ignored
+       completely.
+    *#
+    
+    output X;
+finish

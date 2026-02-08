@@ -1,0 +1,8 @@
+start
+    declare @InvalidVar = 10;  ## Error: Invalid char @
+    declare 123BadID = 5;      ## Error: ID starts with digit
+    declare string = "Unterminated string;
+    
+    #* This comment never ends...
+       start
+       finish

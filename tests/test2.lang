@@ -1,0 +1,15 @@
+start
+    declare Result = 0;
+    ## Testing complex precedence
+    Result = 10 + 5 * 2 - 20 / 4; 
+    Result = (10 + 5) * (2 - 20);
+    
+    ## Scientific Notation
+    declare BigNum = 1.5e10;
+    declare SmallNum = 2.4E-5;
+    
+    ## 'condition' is the keyword for if-statements in this language (Section 3.1)
+    condition (Result >= 10 && Result <= 100) {
+        output "Range OK";
+    }
+finish

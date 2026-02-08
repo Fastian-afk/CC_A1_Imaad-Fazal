@@ -1,0 +1,33 @@
+Language Grammar Specifications
+Language Name: CustomLang
+Extension: .lang
+
+1. KEYWORDS (Case-Sensitive)
+   Patterns: start, finish, loop, condition, declare, output, input, 
+             function, return, break, continue, else
+   Boolean: true, false
+
+2. IDENTIFIERS
+   Regex: [A-Z][a-z0-9]{0,30}
+   Rule: Must start with an Uppercase letter. Max 31 characters.
+   Examples: Count, TotalSum, X
+
+3. LITERALS
+   Integer: [+-]?[0-9]+
+   Float:   [+-]?[0-9]+\.[0-9]{1,6}([eE][+-]?[0-9]+)?
+   String:  "..." (Supports escape sequences \n, \t, \r, \\, \")
+   Char:    '.'   (Supports escape sequences)
+
+4. OPERATORS
+   Arithmetic: +, -, *, /, %, ** (Exponentiation)
+   Relational: ==, !=, <=, >=, <, >
+   Logical:    &&, ||, !
+   Assignment: =, +=, -=, *=, /=
+   Inc/Dec:    ++, --
+
+5. COMMENTS
+   Single-line: ## Comment text
+   Multi-line:  #* Comment text *#
+
+6. PUNCTUATORS
+   Symbols: ( ) { } [ ] , ; :

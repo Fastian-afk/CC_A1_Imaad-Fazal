@@ -1,0 +1,18 @@
+start
+    declare Count = 10;
+    declare Price = 45.50;
+    ## This is a comment
+    
+    loop (Count > 0) {
+        output "Value is: " + Count;
+        Count--;
+    }
+    
+    #* Multi-line comment 
+      Testing ignored text
+    *#
+    
+    function Calculate(X) {
+        return X ** 2;
+    }
+finish
