@@ -5,6 +5,7 @@
 
 ## 👥 Team Members
 * **Imaad Fazal** - [23I-0656]
+* **Muhammad Immad** - [23I-0026]
 
 ## 🛠️ Compilation & Execution
 Follow these steps to compile and run the project from the root directory.
