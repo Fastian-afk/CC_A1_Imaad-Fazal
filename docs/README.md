@@ -4,6 +4,7 @@
 
 ## Team Members
 * **Member 1:** Imaad Fazal (23I-0656)
+* **Member 2:** Muhammad Immad (23I-0026)
 
 ## How to Run
 1.  **Compile:**
