@@ -98,7 +98,7 @@ public class ManualScanner {
                 if (peek() == '#') { // Single line
                     while (peek() != '\n' && !isAtEnd()) advance();
                     return nextToken(); 
-                } else if (peek() == '*') { // BONUS TASK 2: Nested Multi-line Comments
+                } else if (peek() == '*') { // BONUS TASK 2: Nested Multi-line Comments 
                     advance(); // consume *
                     int depth = 1;
                     
@@ -112,7 +112,7 @@ public class ManualScanner {
                              advance(); advance();
                              depth--;
                         } else {
-                             // Just normal comment content
+                             // Just normal comment content 
                              if (peek() == '\n') { line++; col = 0; }
                              advance();
                         }
@@ -121,7 +121,7 @@ public class ManualScanner {
                     if (depth > 0) {
                         errorHandler.reportError("Unclosed Comment", line, tokenCol, "#*", "Nested comment not closed");
                         return new Token(TokenType.EOF, "", line, col);
-                    }
+                    } // For unclosed comments
                     
                     // Successfully skipped comment, recurse to find next real token
                     return nextToken();
