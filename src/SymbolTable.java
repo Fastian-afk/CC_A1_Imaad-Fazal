@@ -1,3 +1,14 @@
+/**
+ * SymbolTable
+ * -------------------------
+ * Maintains a table of identifiers encountered during lexical analysis,
+ * storing each symbol’s type, the line where it first appears, and the
+ * number of occurrences in the source program. When a symbol is re-used,
+ * its frequency counter is updated instead of creating duplicates. The
+ * table can be printed in a formatted layout for analysis and debugging.
+ */
+
+
 package src;
 
 import java.util.HashMap;
