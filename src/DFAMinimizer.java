@@ -6,6 +6,18 @@ import java.util.*;
  * BONUS TASK 4: DFA Minimization Algorithm
  * Implements Moore's Algorithm (Partition Refinement)
  */
+
+/**
+ * DFAMinimizer
+ * -------------------------
+ * Implements DFA minimization using Moore's partition refinement algorithm.
+ * A sample DFA containing redundant states is constructed, after which states
+ * are repeatedly grouped and split based on transition behavior until no further
+ * refinement is possible. States with identical transition patterns are merged,
+ * producing minimized DFA partitions while preserving language acceptance.
+ * The program then prints original states and resulting minimized groups.
+ */
+
 public class DFAMinimizer {
 
     // Represents a State in the DFA
@@ -132,4 +144,5 @@ public class DFAMinimizer {
         }
         return sb.toString();
     }
+
 }
