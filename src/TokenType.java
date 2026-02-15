@@ -1,3 +1,13 @@
+/**
+ * TokenType
+ * -------------------------
+ * Defines all possible token categories recognized by the lexical analyzer,
+ * including language keywords, literals, operators, punctuators, and special
+ * control tokens such as EOF and ERROR. This enumeration standardizes token
+ * classification so scanners and parsers can consistently interpret source code.
+ */
+
+
 package src;
 
 public enum TokenType {
