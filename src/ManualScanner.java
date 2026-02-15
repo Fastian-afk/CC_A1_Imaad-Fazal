@@ -1,3 +1,21 @@
+/**
+ * ManualScanner
+ * -------------------------
+ * Implements a manual lexical analyzer that reads a source file and converts
+ * it into a sequence of tokens. The scanner handles identifiers, keywords,
+ * numeric literals, strings, characters, operators, delimiters, and comments,
+ * while also tracking line and column positions for accurate error reporting.
+ *
+ * Additional capabilities include nested multi-line comment handling, Unicode
+ * escape support in strings, identifier validation, and symbol table insertion.
+ * Errors are reported through an external error handler, and token statistics
+ * are generated after scanning completes.
+ *
+ * The scanner integrates with a symbol table and error handler to simulate
+ * compiler-style lexical analysis without relying on automated tools.
+ */
+
+
 package src;
 
 import java.io.BufferedReader;
