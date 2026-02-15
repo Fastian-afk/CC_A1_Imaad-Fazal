@@ -1,3 +1,14 @@
+/**
+ * JFlexRunner
+ * -------------------------
+ * Serves as the entry point for executing the JFlex-generated lexical scanner.
+ * It reads a source file, continuously invokes the scanner to obtain tokens,
+ * and prints each token until the end-of-file is reached. The program also
+ * handles file reading and scanner-related errors to ensure controlled execution
+ * during lexical analysis testing.
+ */
+
+
 package src;
 
 import java.io.FileReader;
