@@ -1,3 +1,14 @@
+/**
+ * ErrorHandler
+ * -------------------------
+ * Manages lexical or parsing errors encountered during program execution.
+ * It records formatted error messages including error type, location,
+ * offending lexeme, and explanation, while also printing them to the
+ * standard error stream. Provides a utility method to check whether any
+ * errors have been reported during processing.
+ */
+
+
 package src;
 
 import java.util.ArrayList;
