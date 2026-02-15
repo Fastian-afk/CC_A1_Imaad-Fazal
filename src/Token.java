@@ -1,3 +1,13 @@
+/**
+ * Token
+ * -------------------------
+ * Represents a lexical token produced by the scanner, containing the token
+ * type, matched lexeme, and its position in the source code (line and column).
+ * Provides a formatted string representation used for displaying scanner output
+ * in a consistent and readable structure.
+ */
+
+
 package src;
 
 public class Token {
